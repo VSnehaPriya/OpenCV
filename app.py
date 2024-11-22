@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image as pil_img
 
 # Load the face cascade
-face_cascade = cv2.CascadeClassifier(r'C:\Users\E430384\Downloads\VS Code\CV\cascade_frontface_default.xml')
+face_cascade = cv2.CascadeClassifier(r'cascade_frontface_default.xml')
 
 # Streamlit UI for image upload
 st.title("Face Detection Web App")
